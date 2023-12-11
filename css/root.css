@@ -1,0 +1,41 @@
+:root {
+    /* color */
+    --Linkbrary-primary-color: #6D6AFE;
+    --gra-purplebule-to-skyblue: #6AE3FE;
+    --Linkbrary-white: #FFFFFF;
+    --Linkbrary-red: #FF5B56;
+    --The-julge-black: #111322;
+    --Grey-Light: #F5F5F5;
+    --Linkbrary-gray10: #E7EFFB;
+    --Linkbrary-gray20: #CCD5E3;
+    --Linkbrary-gray100: #373740;
+    --Linkbrary-gray60: #9FA6B2;
+    --Linkbrary-bg: #F0F6FF;
+
+    /* font-size */
+    --btn-font-size: 1.8rem;
+    --title-font-size: 6.4rem;
+    --side-title-font-size: 4.8rem;
+    --small-font-size: 1.6rem;
+    --label-font-size: 1.4rem;
+
+    /* font-weight */
+    --small-font-weight: 400;
+    --basic-font-weight: 600;
+    --big-font-weight: 700;
+
+    /* font-family */
+    --basic-font-family: Pretendard;
+
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        --btn-font-size: 1.4rem;
+        --title-font-size: 3.2rem;
+        --side-title-font-size: 2.4rem;
+        --small-font-size: 1.5rem;
+        --label-font-size: 1.4rem;
+    }
+    
+}

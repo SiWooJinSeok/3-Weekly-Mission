@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>signup</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+        />
+        <link rel="stylesheet" href="../css/sign.css">
+    </head>
+    <body>
+        <main class="sign">
+            <div class="signup-container">
+                <section>
+                    <div class="flex-logo-gap-1">
+                        <a href="/index.html">
+                            <img src="/images/logo.svg" class="big-logo">
+                        </a>
+                        <span>이미 회원이신가요? <a href="signin.html">로그인 하기</a></span>
+                    </div>
+                    <form class="sign-form">
+                        <div class="sign-inputs">
+                            <div class="label-input">
+                                <label for="email">이메일</label>
+                                <input id="email" name="email" type="email">
+                            </div>
+                            <div class="label-input">
+                                <label for="password">비밀번호</label>
+                                <input id="password" name="password" type="password">
+                                <img class="eye on" src="/images/eye-on.svg">
+                            </div>
+                            <div class="label-input">
+                                <label for="password-repeat">비밀번호 확인</label>
+                                <input id="password-repeat" name="password-repeat" type="password">
+                                <img class="eye on" src="/images/eye-on.svg">
+                            </div>
+                        </div>
+                        <button type="submit" class="sign-submit-btn"> 회원가입</button>
+                    </form>
+                    
+                </section>
+                <section class="social-login">
+                    다른 방식으로 가입하기
+                    <ul class="social-icons">
+                        <li class="social-icon">
+                            <a href="https://www.google.com/">
+                                <img src="/images/google.svg">
+                                <img src="/images/google.png" class="icon">
+                            </a>
+                        </li>
+                        <li class="social-icon">
+                            <a href="https://www.kakaocorp.com/page/">
+                                <img src="/images/kakao.svg">
+                                <img src="/images/99FE484C5C3451F2181.svg" class="icon kakao">
+                            </a>
+                        </li>
+                    </ul>
+        
+                </section>
+            </div>
+
+        </main>
+    </body>
+</html>
